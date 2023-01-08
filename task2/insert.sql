@@ -762,6 +762,7 @@ INSERT INTO lesson_prices (sibling_discount, price, skill_level) VALUES
 (15, 100, NULL); -- Ensemble
 
 INSERT INTO group_lesson (room, time, minimum_students, level, instructor_salary, instrument, instructor_id, price_id) VALUES
+('101', '2023-03-01 13:00', 6, 'Beginner', 1000, 'Guitar', 4, 4),
 ('101', '2022-10-10 10:00', 5, 'Beginner', 1000, 'Guitar,', 4, 4),
 ('102', '2022-11-21 13:00', 5, 'Intermediate', 1250, 'Piano', 1, 5),
 ('201', '2022-11-01 08:00', 4, 'Advanced', 1500, 'Accordion', 1, 6),
