@@ -70,7 +70,7 @@ SELECT instructor_id, person.name, COUNT(*) as lessons FROM (
 	ORDER BY num_of_siblings ASC;
 
 
---ALL ENSEMBLES HELD THE CURRENT WEEK 
+--ALL ENSEMBLES HELD THE NEXT WEEK 
  ----------------------------------------------------
 SELECT id,
 genre,
